@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onyeabasilim Chisom | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">O.C.</a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <button id="mobile-theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate__animated animate__fadeInLeft">
+                <h1>Onyeabasilim Chisom</h1>
+                <h2>Freelance Web Developer</h2>
+                <p>Creating beautiful, functional websites that drive results</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image animate__animated animate__fadeInRight">
+                <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Developer at Work">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know the person behind the code</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Onyeabasilim Chisom">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate freelance web developer with over 5 years of experience creating modern, responsive websites and web applications. My journey in tech began when I built my first website at 16, and I've been hooked ever since.</p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">HTML/CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">React</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <p>How I can help bring your vision to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate__animated animate__fadeInUp">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built from scratch tailored to your specific needs using the latest technologies.</p>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look and function perfectly on all devices, from desktop to mobile.</p>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, intuitive interfaces designed with user experience as the top priority.</p>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>Online stores with secure payment processing and inventory management.</p>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Websites optimized to rank higher in search results and attract more visitors.</p>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 1s;">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Web Hosting</h3>
+                    <p>Reliable hosting solutions with 99.9% uptime and 24/7 technical support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Portfolio</h2>
+                <p>A selection of my recent work</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Web Apps</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Portfolio Item 1">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Modern design for a financial services company</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Item 2">
+                    <div class="portfolio-overlay">
+                        <h3>Task Management App</h3>
+                        <p>React-based productivity application</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Item 3">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion Store</h3>
+                        <p>E-commerce platform for a boutique</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Portfolio Item 4">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <p>Elegant design with online reservation system</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Item 5">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracker</h3>
+                        <p>Health monitoring progressive web app</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Item 6">
+                    <div class="portfolio-overlay">
+                        <h3>Electronics Store</h3>
+                        <p>High-conversion online shop</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Blog Posts</h2>
+                <p>Thoughts on web development and design</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Blog Post 1">
+                        <div class="blog-date">June 15, 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Future of Web Development in 2023</h3>
+                        <p>Exploring the latest trends and technologies that are shaping the future of web development this year.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Blog Post 2">
+                        <div class="blog-date">May 28, 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>10 Essential JavaScript Tips</h3>
+                        <p>Practical JavaScript tips and tricks that every developer should know to write cleaner, more efficient code.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Blog Post 3">
+                        <div class="blog-date">April 10, 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Building Accessible Websites</h3>
+                        <p>A comprehensive guide to creating websites that are accessible to all users, regardless of ability.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-cta">
+                <a href="#" class="btn btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What my clients say about my work</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Chisom delivered our website ahead of schedule and exceeded our expectations. The attention to detail and responsiveness to our needs was exceptional.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechSolutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Working with Chisom was a pleasure. He understood our vision perfectly and translated it into a beautiful, functional website that has significantly increased our online sales.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Brown">
+                        <div>
+                            <h4>Michael Brown</h4>
+                            <p>Founder, UrbanFashion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>As a non-technical founder, I appreciated Chisom's ability to explain complex concepts simply. The web app he built for us has been crucial to our startup's success.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Amina Mohammed">
+                        <div>
+                            <h4>Amina Mohammed</h4>
+                            <p>Co-Founder, HealthTrack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>hello@chisom.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+234 812 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">O.C.</a>
+                    <p>Creating digital experiences that make an impact. Let's build something amazing together.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">E-Commerce</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Web Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to my newsletter for the latest updates and insights.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Onyeabasilim Chisom. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
